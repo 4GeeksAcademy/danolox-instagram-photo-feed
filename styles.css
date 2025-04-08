@@ -1,0 +1,75 @@
+* {
+    /* border: dashed 0.1px red; */
+    
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+
+body {
+    background-color: rgb(234, 234, 234);
+}
+
+
+header {
+    background-color: white;
+    padding: 20px;
+}
+
+
+header h1 {
+    width: 600px;
+    text-align: left;
+
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+article {
+    width: 600px;
+    
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: white;
+}
+
+
+article img {
+    width: inherit;
+}
+
+
+article section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 60px;
+
+}
+
+
+.titulo-publicacion {
+    margin-left: 10px;
+}
+
+
+.fecha {
+    margin-right: 10px;
+    font-weight: bold;
+    color: rgb(175, 175, 175);
+}
+
+
+footer {
+    margin-top: 150px;
+}
+
+
+p {
+    padding: 20px;
+}
